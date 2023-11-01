@@ -1,0 +1,9 @@
+data:
+  root_dir: cifar-100-python
+  output_dir: outputs
+train:
+  net_type: ConvNet
+  num_epochs: 5
+  learning_rate: 2e-4
+  batch_size: 32
+  num_workers: 4
